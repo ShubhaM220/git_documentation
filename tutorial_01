@@ -1,0 +1,71 @@
+1.sudo apt-get install git //installation
+
+
+
+configuration:
+
+1.git config --global user.name "Your Name"
+
+2.git config --global user.email "youremail@domain.com"
+
+
+
+
+
+We can see all of the configuration items that have been set by typing:
+
+    git config --list
+
+we can also edit the configuration file by hand with text editor like this:
+
+    nano ~/.gitconfig
+
+
+
+
+The next step is to create a repository in github.Then follow the following steps:
+
+1. create a file which we need to push to github repository.
+	e.g. nano test.txt
+
+2. git add <file_name.format>
+
+3. git commit -m "......" // command  to commit
+
+4. git remote add origin https://github.com/ShubhaM220/repository_name.git // to make the repository available for push.
+
+5. git push -u origin master // push to master branch
+
+
+
+
+
+
+follow the following code to change the branch
+
+
+-->git checkout -b my_new_branch.
+
+then
+
+-->git push -u origin my_new_branch.
+
+
+
+To view log following command can be used.
+
+-->git log
+
+
+
+
+Now to clone a repository to your machine follow the below listed command:
+
+--> git clone [urlof the repository]
+
+important links:
+
+1. basic command for beginers:
+	http://www.dataschool.io/git-quick-reference-for-beginners/
+	
+	
